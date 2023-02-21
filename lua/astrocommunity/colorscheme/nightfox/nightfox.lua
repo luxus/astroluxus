@@ -21,4 +21,6 @@ return {
     },
     groups = { all = { NormalFloat = { link = "Normal" } } },
   },
+  priority = 1000,
+  lazy = false,
 }

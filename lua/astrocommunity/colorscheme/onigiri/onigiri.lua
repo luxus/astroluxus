@@ -1,5 +1,4 @@
 return {
-  { "AstroNvim/astrotheme", enabled = false },
   {
     "kaiuri/onigiri.nvim",
     init = function()
@@ -34,12 +33,6 @@ return {
           },
         },
       }
-    end,
-    config = function()
-      local hour = tonumber(os.date "%H")
-      local theme = hour >= 6 and hour <= 18 and "mariana" or "kaolin"
-      vim.g.onigiri = { theme = require("onigiri").presets[theme] }
-      vim.cmd "colorscheme onigiri"
     end,
     priority = 1000,
     lazy = false,
