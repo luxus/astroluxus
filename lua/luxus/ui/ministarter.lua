@@ -1105,10 +1105,7 @@ local randomhead = function()
   return table.concat(headers[math.random(1, #headers)], "\n")
 end
 return {
-  {
-    "goolord/alpha-nvim",
-    enabled = false,
-  },
+
   {
     "echasnovski/mini.starter",
     version = false,
