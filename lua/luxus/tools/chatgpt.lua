@@ -4,6 +4,7 @@ return {
   keys = {
     { prefix, desc = "ChatGPT" },
     { prefix .. "c", "<cmd>ChatGPT<cr>", desc = "Talk to ChatGPT" },
+    { prefix .. "C", "<cmd>ChatG PTCompleteCode<cr>", desc = "Complete Code" },
     { prefix .. "e", "<cmd>ChatGPTEditWithInstructions<cr>", desc = "Edit selection" },
     { prefix .. "a", "<cmd>ChatGPTActAs<cr>", desc = "ChatGPT act as" },
   },
